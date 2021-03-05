@@ -1,0 +1,30 @@
+body {
+  color: #fff;
+  background: #000;
+  font: 300 1em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em, 2em;
+  color: #ffa260;
+  transition: 0.25s;
+}
+
+.disp:hover,
+.disp:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #ffd633;
+  transform: translateY(-0.25em);
+  border-color: #ffd633;
+  color: #fff;
+}
