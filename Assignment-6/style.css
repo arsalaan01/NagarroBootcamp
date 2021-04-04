@@ -29,11 +29,11 @@ input[type="text"] {
   border: none;
   font-size: 1.5em;
   background: #fff;
-  color: #ff7a00;
+  color: #0077ff;
 }
 button {
   font-size: 1.5em;
-  color: #ff7a00;
+  color: #0077ff;
   background-color: #fff;
   outline: 0;
   border: none;
@@ -45,7 +45,7 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 40px;
-  /*display: none;*/
+  display: none;
 }
 ul {
   list-style: none;
@@ -55,12 +55,12 @@ li {
   padding-bottom: 15px;
   padding-top: 15px;
   font-size: 1.3em;
-  color: #ff7a00;
+  color: #0077ff;
 }
 a {
   float: right;
   text-align: right;
-  color: #ff7a00;
+  color: #0077ff;
   font-size: 1.2em;
   cursor: pointer;
 }
@@ -69,17 +69,4 @@ a {
   padding: 0px 3px 0px 3px;
   color: #fff;
   cursor: pointer;
-}
-
-@media (max-width: 500px) {
-  .main {
-    margin: auto;
-    width: 100%;
-  }
-  input[type="text"] {
-    width: 80%;
-  }
-  button {
-    width: 10%;
-  }
 }
